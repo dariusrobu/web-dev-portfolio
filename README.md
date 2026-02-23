@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevR Portfolio - Modern Architect Showcase
 
-## Getting Started
+[![Deployed to Vercel](https://img.shields.io/badge/Deployed%20to-Vercel-black?logo=vercel)](https://web-dev-portfolio-cyan-six.vercel.app)
+[![Tech Stack](https://img.shields.io/badge/Tech%20Stack-Next.js%20|%20TypeScript%20|%20Tailwind-blue)]()
 
-First, run the development server:
+A premium, high-performance developer portfolio designed for modern tech leaders and architects. This project blends sophisticated aesthetics with absolute technical excellence, featuring an interactive project archive, immersive gallery modals, and a specialized dark-mode design system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Premium Dark Aesthetic**: A custom-designed UI using a sophisticated dark slate palette and brand-aligned gradients (`#6366f1` → `#a855f7` → `#ec4899`).
+- **Interactive Project Archive**: A comprehensive vault of projects with a premium table view and clickable rows.
+- **Project Detail Modals**: Immersive, multi-image galleries and project descriptions in a clean, backdrop-blurred interface.
+- **Mobile Optimized**: Fully responsive experience across all devices.
+- **Direct Contact Architecture**: Minimalist contact section highlighting core professional channels.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Core**: [Next.js 15](https://nextjs.org/) (App Router), [React 19](https://react.dev/)
+- **Logic**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/dariusrobu/web-dev-portfolio.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Run the development server**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+- `src/app`: Core application routing and pages.
+- `src/components`: Specialized UI components (Hero, Portfolio, Archive, etc.).
+- `public/projects`: High-resolution project assets and local galleries.
+
+---
+
+Crafted with excellence by **Darius Robu**.
